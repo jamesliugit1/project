@@ -1,0 +1,174 @@
+
+.speech {
+    display: flex;
+    width: 100%;
+    background-color: #5a378c;
+    padding: 66px 60px;
+    color: #fff;
+}
+.speech-img {
+    width: 600px;
+    height: 400px;
+}
+.speech-info {
+    margin: 0 0 0 32px;
+    background-color: #4b2f73;
+    padding:  32px 24px;
+}
+.speech-info h1 {
+    margin: 12px 0 18px 0;
+}
+.time {
+    margin-top: 9px ;
+    padding-top: 9px;
+    border-top: 4px solid #fff;
+}
+.long {
+    align-items: center;
+}
+.long i {
+    margin-right: 12px;
+}
+strong {
+    font-size: 1.6rem;
+    color: #f23d7f;
+    margin: 0 2px;
+}
+.already,.join-now {
+    align-items: flex-end;
+}
+.join-now {
+    margin-left: auto;
+}
+.join-now a {
+    margin-left: 24px;
+    width: 108px;
+    height: 50px;
+    background-color: #f2913d;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+}
+.bookmark {
+    position: sticky;
+    top: 56px;
+}
+.bookmark li {
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #363737;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.bookmark li:hover {
+    background-color: #f2913d;
+}
+article {
+    padding: 72px 0 0 60px;
+    width: 75%;
+}
+article h3 {
+    padding-left: 24px;
+    border-left: 6px solid #5a378c;
+    margin-bottom: 32px;
+}
+article h4 {
+    margin-top: 24px;
+    font-weight: 400;
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .bookmark {
+        top: 41px;
+    }
+}
+@media screen and (max-width:575.99px) {
+    .bookmark {
+        top: 26px;
+    }
+    .bookmark li {
+        height: 36px;
+        line-height: 36px;
+    }
+    article {
+        padding: 36px 20px 0 20px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:992px) {
+    .speech {
+        display: block;
+        padding: 32px 20px;
+    }
+    .speech-img {
+        width: 300px;
+        height: 200px;
+        margin: 0 auto 0 auto;
+    }
+    .speech-info {
+        margin: 0 auto;
+    }
+}
+h3.replay {
+    padding: 60px 0px 30px 60px;
+}
+.lesson-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lesson-box {
+    width: 260px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 32px 0;
+}
+.lesson {
+    background-color: #5a378c;
+    padding: 30px 60px 30px 60px;
+}
+.lesson-img {
+    width: 260px;
+    height: 165px;
+} 
+.lesson-article {
+    padding: 24px 18px;
+}
+.lesson-article h4 {
+    font-weight: 500;
+    height: 64px;
+    margin-bottom: 36px;
+}
+.lesson-article span {
+    color: #666;
+}
+.lesson-article p {
+    margin-top: 32px;
+    font-weight: 500;
+    width: 84px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #f2913d;
+    text-align: center;
+}
+@media screen and (max-width:575.99px) {
+    .lesson-box {
+        width: 100%;
+    }
+    .lesson-img {
+        width: 100%;
+    }
+    .lesson-article h4 {
+        height: 48px;
+        margin-bottom: 0;
+    }
+    .lesson-article p {
+        margin-top: 16px;
+    }
+}

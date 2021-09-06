@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+a,span {
+    display: block;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 3.8rem;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+h3 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    h2 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }   
+}
+@media screen and (max-width:575.99px) {
+    h1 {
+        font-size: 2.4rem;
+        letter-spacing: 2.4px;
+        line-height: 2.8rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        letter-spacing: 1px;
+    }
+    h4 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    span {
+        font-size: 0.6rem;
+    }
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #5a378c;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    padding: 0 20px;
+    z-index: 1;
+}
+.logo-wrap {
+    width: 180px;
+    height: 60px;
+    padding-right: 16px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-btn-group li {
+    margin-right: 35px;
+}
+.nav-btn-group2 {
+    margin-left: auto;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+.nav-btn-group2 li {
+    margin-left: 35px;
+}
+.nav-btn-group2 li:nth-child(2) {
+    height: 40px;
+    width: 105px;
+    background-color: #f2913d;
+    line-height: 40px;
+}
+.option {
+    height: 24px;
+    margin-left: auto;
+    display: none;
+    cursor: pointer;
+}
+.option img {
+    height: 100%;
+}
+.brick {
+    height: 80px;
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        height: 65px;
+        padding: 0 16px;
+    }
+    .logo-wrap {
+        width: 144px;
+        height: 48px;
+    }
+    .nav-btn-group {
+        width: 50%;
+        justify-content: space-between;
+    }
+    .nav-btn-group li {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    .brick {
+        height: 65px;
+    }
+}
+@media screen and (max-width:575.99px) {
+    header {
+        height: 50px;
+        padding: 0 12px;
+    }
+    .logo-wrap {
+        width: 108px;
+        height: 36px;
+    }
+    nav {
+        display: none;
+    }
+    .option {
+        display: block;
+    }
+    .brick {
+        height: 50px;
+    }
+}
+footer {
+    padding: 24px 120px;
+    display: flex;
+    align-items: center;
+    background-color: #363737;
+    color: #fff;
+}
+.footer-info ul {
+    display: flex;
+}
+.footer-info {
+    align-items: center;
+    display: flex;
+}
+.footer-info ul li {
+    margin:0 24px 0 0;
+    font-size: 0.6rem;
+}
+.footer-icon {
+    margin: 0 0 0 auto;
+}
+.footer-icon a{
+    margin:0 0 0 24px;
+}
+.fab {
+    font-size: 2em;
+}
+
+.page-top {
+    color: #fff;
+    background-color: #ccc;
+    height: 84px;
+    width: 84px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 3rem;
+}
+@media screen and (max-width:992px) {
+    .footer-info ul {
+        display: block;
+    }
+    .footer-info ul li {
+        margin:16px 4px 0 4px ;
+        width: 80px;
+        /* font-size: 0.6rem;       */
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {  
+    
+}
+@media screen and (max-width:575.99px) {
+    footer {
+        padding: 24px 20px;
+        align-items: flex-end;
+    } 
+    .footer-info {
+        display: block;
+    }
+    .footer-info ul {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .footer-icon {
+        width: 50%;
+        margin: 32px auto 0 auto;
+        justify-content: space-between;
+    }
+    .footer-icon a {
+        margin: 0;
+    }
+    .page-top {
+        transform-origin: right bottom;
+        transform: scale(.5,.5);
+    } 
+}
+.row {
+    display: flex;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+

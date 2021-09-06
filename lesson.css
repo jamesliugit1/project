@@ -1,0 +1,152 @@
+.subjects-tag,.subjects-tag-2,.shutter {
+    background-color: #363737;
+    color: #fff;
+    text-align: center;
+}
+.subjects-tag {
+    width: 100%;
+    overflow: hidden;   
+}
+.subjects-tag ul li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: 1.5px solid #fff; 
+}
+.subjects-tag ul li:hover {
+    background-color: #f2913d;
+}
+.subjects-tag ul:nth-child(2) {
+    transform: translateX(7.143%);
+}
+.subjects-tag-2 {
+    display: none;
+}
+.subjects-tag-2 ul li  {
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+.shutter-wrap {
+    display: none;
+}
+.shutter {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+@media screen and (max-width:575.99px) {
+    .subjects-tag {
+        display: none;
+    }
+    .shutter-wrap {
+        display: block;
+    }
+}
+hgroup {
+    color: #fff;
+    align-items: center;
+}
+hgroup h3 {
+    margin-left: 120px;
+}
+.lesson-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lesson {
+    padding: 100px 30px 30px 30px;
+    background-color: #5a378c;
+}
+.lesson-item {
+    width: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 32px 0;
+    transition: .25s;
+}
+.lesson-item:hover {
+    transform: translate(-2px,-2px);
+    box-shadow: 2px 2px 2px #000;
+}
+
+.lesson-article {
+    padding:12px 18px 12px 18px;
+}
+.lesson-article h4 {
+    height: 48px;
+}
+.lesson-article p {
+    color: #ccc;
+    font-size: .8rem;
+    margin-top: 32px;
+}
+.lesson-price {
+    margin-top: 12px;
+}
+.lesson-price h4 {
+    color: #f2913d;
+    margin-top: 36px;
+    height: 2rem;
+    line-height: 2rem;
+}
+.lesson-article span {
+    height: 36px;
+} 
+.lesson-bottom {
+    line-height: 2rem;
+    height: 2rem;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+.lesson-icon {
+    align-items: center;   
+}
+.lesson-icon span {
+    margin-left: 4px;
+}
+@media screen and (max-width:575.99px) {
+    .lesson-item {
+        width: 100%;
+        height: 280px;
+        margin: 12px 0;
+    }
+    .lesson-img {
+        height: 45%;
+    }
+    .lesson-article h4 {
+        height: 18px;
+    } 
+    .lesson-article p {
+        margin-top: 4px;
+    }
+    hgroup h3 {
+        display: none;
+    }
+    .lesson-price h4 {
+        color: #f2913d;
+        margin-top: 0;
+        height: 1.6rem;
+    }
+}
+.page {
+    font-size: 1.2rem;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #5a378c;
+}
+.pre-after {
+    width: 42px;
+}
+.page-num {
+    padding: 0 16px;
+}
+.page-num a {
+    width: 36px;
+}
